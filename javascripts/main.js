@@ -1,5 +1,7 @@
-import utilities from './components/cheese.js';
+import cheese from './components/cheese.js';
+import order from './components/order.js'
 const init = ()=>{
-    utilities.printCheeseOptions();
-}
+    cheese.printCheeseOptions();
+    order.printOrderButton();
+};
 init();
